@@ -7,12 +7,12 @@ public final class Validator {
         if (!romanNumber.isEmpty())
         {
             /* Regex
-            M{0,4} thousands section 0 to 4000
+            M{0,3} thousands section 0 to 3000
             (CM|CD|D?C{0,3}) hundreds section with all possibilities
             (XC|XL|L?X{0,3}) tens section with all possibilties
             (IX|IV|V?I{0,3}) units 0 to 9
              */
-            return romanNumber.matches("^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$");
+            return romanNumber.matches("^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$");
         }
         return false;
     }
