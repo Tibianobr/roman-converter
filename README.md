@@ -18,7 +18,7 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_blue_diamond: [Aplicação](#aplicação-dash)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
@@ -72,8 +72,6 @@ Abra o Intellij e/ou sua IDE favorita e importe o projeto. A IDE fará o resto.
 Foram criados alguns testes dentro do código para validar, estão guardados no pacote chamados Tests.
 
 ## Desenvolvedores/Contribuintes :octocat:
-
-Liste o time responsável pelo desenvolvimento do projeto
 
 [<img src="https://avatars1.githubusercontent.com/u/23251490?s=460&v=4" width=115><br><sub>Brenno Serrato (Tibianobr)</sub>](https://github.com/Tibianobr)
 
