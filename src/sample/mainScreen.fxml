@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ConverterScreenController">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.ConverterScreenController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
@@ -23,6 +23,11 @@
                   <Button fx:id="toRomanButton" layoutX="293.0" layoutY="206.0" minHeight="21.0" minWidth="46.0" mnemonicParsing="false" onAction="#convertToRoman" prefHeight="30.0" prefWidth="10.0" text="&lt;" />
                   <TextField fx:id="romanField" layoutX="55.0" layoutY="176.0" promptText="ROMAN" />
                   <TextField fx:id="arabicField" layoutX="430.0" layoutY="176.0" promptText="ARABICO" />
+                  <Label fx:id="message" alignment="CENTER" layoutX="54.0" layoutY="301.0" prefHeight="42.0" prefWidth="532.0" style="&#10;" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
                </children>
             </Pane>
       </children>
