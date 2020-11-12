@@ -43,14 +43,12 @@ public class ConverterScreenController {
         String conversionType = "romanToArabic";
         ResultNumber result = manager.executeConversion(conversionType,romanField.getText());
         fillData(result,conversionType);
-        System.out.println(result.getStats());
     }
 
     public void convertToRoman(ActionEvent actionEvent) {
         String conversionType = "arabicToRoman";
         ResultNumber result = manager.executeConversion(conversionType,arabicField.getText());
         fillData(result,conversionType);
-        System.out.println(result.getStats());
     }
 
     private void fillData(ResultNumber resultNumber, String type)
