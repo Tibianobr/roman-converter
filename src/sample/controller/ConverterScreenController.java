@@ -7,7 +7,6 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import sample.model.ResultNumber;
 import sample.service.Manager;
-import sample.service.Validator;
 
 public class ConverterScreenController {
     @FXML
