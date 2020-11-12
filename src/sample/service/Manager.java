@@ -13,6 +13,7 @@ public class Manager {
             {
                 result = new ResultNumber("Conversão OK");
                 result.setNumber(Converter.toRoman(Integer.parseInt(number)));
+                result.setStats(Counter.countOccurrences(result.getNumber()));
             }
             else
                 result = new ResultNumber("Número inválido ou não suportado");
@@ -23,6 +24,7 @@ public class Manager {
             {
                 result = new ResultNumber("Conversão OK");
                 result.setNumber(Converter.toArabic(number).toString());
+                result.setStats(Counter.countOccurrences(number));
             }
             else
                 result = new ResultNumber("Número inválido ou não suportado");
