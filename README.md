@@ -56,6 +56,12 @@ Dependendo de onde sua JDK foi baixada não será preciso fazer nada além de te
 
 Faça o download nos [Releases](https://github.com/Tibianobr/roman-converter/releases).
 
+Execute com:
+
+```
+java -jar nomeDoJar.jar
+```
+
 ### Para alterar o código:
 
 No terminal, clone o projeto: 
